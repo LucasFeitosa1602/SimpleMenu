@@ -24,7 +24,7 @@ export function OrderConfirmedModal({ visible, onOk }: OrderConfirmedModalProps)
         </Text>
 
         <OkButton onPress={onOk}>
-          <Text color="#D73035" weigth="600">OK</Text>
+          <Text color="#5F9F9F" weigth="600">OK</Text>
         </OkButton>
       </Container>
     </Modal>

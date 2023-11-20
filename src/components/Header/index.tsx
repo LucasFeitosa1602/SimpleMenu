@@ -27,7 +27,7 @@ export function Header({ selectedTable, onCancelOrder }: HeaderProps){
             <Text size={24} weigth="600">Pedido</Text>
 
             <TouchableOpacity onPress={onCancelOrder}>
-              <Text color="#D73035" weigth="600" size={14}>Cancelar pedido</Text>
+              <Text color="#5F9F9F" weigth="600" size={14}>Cancelar pedido</Text>
             </TouchableOpacity>
           </OrderHeader>
 
